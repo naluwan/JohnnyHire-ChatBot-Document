@@ -14,7 +14,7 @@ POST
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:-----|:-----|
 | cpy_id | 97090920 | String | 公司代號 | Y | n/a |
-| cpy_name | 英特內軟體 | String | 公司名稱 | Y | n/a |
+| cpy_name | 英特內軟體 | String | 公司名稱，會使用此名稱作為chat bot名稱，所以僅需要名稱即可。(ex.英特內軟體股份有限公司，僅需要「英特內軟體」即可。) | Y | n/a |
 | email | inter@interinfo.com.tw | String | 公司Email | Y | n/a |
 | password | 12345 | String | 登入密碼 | Y | n/a |
 | token | API-Token | String | 識別使用API權限 | Y | n/a |
